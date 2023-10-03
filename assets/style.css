@@ -1,0 +1,231 @@
+/* Font Style */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+/* The Scroll behaviour of the whole site when clicking on navbar links*/
+html {
+    scroll-behavior: smooth;
+}
+
+.bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+}
+
+.bg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+/* The whole navbar styling*/
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: relative;
+    
+}
+
+h1 {
+    font-size: 2rem;
+    margin: .5rem;
+    text-align: center;
+    font-family: "oswald", sans-serif;
+}
+/* Navbar links */
+li {
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    font-size: 20px;
+    padding: 0px;
+    margin: 5px;
+
+}
+/* Navbar links style */
+li > a {
+    color: white;
+    text-decoration: none;
+    font-family: "oswald", sans-serif;
+}
+
+/* Home Page Picture */
+
+#home {
+    font-family: "oswald", sans-serif;
+    font-size: 15px;
+    padding-top: 1px;
+    height: 700px;
+    width: 60%;
+}
+
+/* Home Page Text on picture*/
+#home > h1 {
+    position:relative;
+    color: black;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-left: 70%;
+    margin-top: 1%;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.image {
+    width: 52%;
+    position: absolute;
+    height: 850px;
+    top: 3.3vw;
+    
+}
+/* Information on home page*/
+.info {
+    position: relative;
+    color: rgb(255, 255, 255);
+    background-color: rgb(41, 41, 41);
+    margin-left: 50%;
+    font-size:20px ;
+    font-family: "oswald", sans-serif;
+    text-align: center;
+    
+}
+
+/* H2 For the specs and about section*/
+h2 {
+    text-align: center;
+    font-family: "oswald", sans-serif;
+    font-size: 30px;
+}
+
+.phone {
+   color: white;
+   text-align: center;
+   background-color: rgb(41, 41, 41); 
+   width: 80%;
+   margin-left: -50%;
+   margin-top: -50%;
+   font-size: 20px;
+   font-family: "oswald", sans-serif;
+   position: relative;
+   margin-right: 90%; 
+   
+}
+
+#specs {
+    font-family: "oswald", sans-serif;
+    font-size: 15px;
+    padding-top: 1px;
+    margin-left: 30%;
+    margin-top: 30%;
+    
+    
+
+}
+
+.about {
+    background-color: rgb(41, 41, 41);
+    font-family: "oswald", sans-serif;
+    padding-top: 1px;
+    color: white;
+    
+    width: 40%;
+    margin-left: 60%;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0;
+    position: relative;
+}
+
+
+#form {
+    color: black;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-color: black;
+    font-size: 20px;
+    font-family: "oswald", sans-serif;
+    padding: 5px; 
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 10%;
+    position: relative;
+}
+
+
+.socials {
+    font-size: 30px;
+    width: 80px;
+    display: inline;
+    text-align: center;
+    font-family: "oswald", sans-serif;
+    position: relative;
+    color: black; 
+}
+
+
+
+@media  screen and (max-width:320px) {
+
+    .logo {
+        font-size: 35px;
+        margin-right: 5px;
+        margin-top: 30px;
+    }
+
+    #home > h1 {
+        font-size: 40px;
+        right: 23vw;
+        top: 5vw;
+    }
+
+    .info {
+        font-size: 15px;
+        right: 28vw;
+    }
+
+    .phone {
+        font-size: 15px;
+        left: 5vw;
+        bottom: 90vw;
+    }
+
+    .about {
+        top: 60vw;
+        right: 117vw;
+        font-size: 15px;
+        width: 50%;
+        margin-left: 450px;
+        margin-bottom: 120vw;
+    }
+
+    #form {
+        top: -40vw;
+        width: 200px;
+        left: 15px;
+        font-size: 20px;
+    }
+
+    .socials {
+        left: -10vw;
+    }
+
+
+    
+}
+
